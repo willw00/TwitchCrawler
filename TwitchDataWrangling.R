@@ -1,3 +1,5 @@
+data <- read.csv("Twitch_snapshot.csv")
+
 for (i in 8:length(data[1,])) {
   data[,i] <- as.integer(data[,i])
 }
