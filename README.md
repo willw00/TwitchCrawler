@@ -36,7 +36,7 @@ python3 twitch_json_to_csv.py
 ```   
 
 
-Now you can look at the data in R or Excel or whatever CSV-opening program you want!
+Now you can look at the data in R or Excel or whatever CSV-opening program you want! I added an R file to load the CSV file, change the factor values to integers, and create an absolute time based on the day,hour,minute,and second columns.
 
 Optional: Restart program automatically
 ---------------------
